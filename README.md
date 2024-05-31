@@ -1,5 +1,3 @@
-Here's a customized version of the readme tailored to your current project:
-
 # AgriEnergy Application Readme
 
 Welcome to the AgriEnergy Web Application! This readme provides comprehensive instructions on how to compile, run, and make the most of this web application developed using C#, ASP.NET, and SQL.
