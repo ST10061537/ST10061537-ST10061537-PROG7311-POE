@@ -1,6 +1,9 @@
-# AgriEnergy Application Readme
+# Agri-Energy Web Application
 
 Welcome to the AgriEnergy Web Application! This readme provides comprehensive instructions on how to compile, run, and make the most of this web application developed using C#, ASP.NET, and SQL.
+
+## GitHub Repo
+https://github.com/ST10061537/ST10061537-ST10061537-PROG7311-POE
 
 ## System Requirements
 
