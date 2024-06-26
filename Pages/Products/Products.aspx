@@ -35,6 +35,32 @@
             <asp:CommandField ShowDeleteButton="True" />
         </Columns>
         <HeaderStyle BackColor="#666666" ForeColor="White" />
+            </asp:GridView>
+    <div class="row" style="margin-top: 20px;">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <img class="section-image" src='<%= ResolveUrl("~/Images/add-products.jpeg") %>' alt="Getting started" />
+            <br />
+            <h2 id="gettingStartedTitle">Add Your Products</h2>
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <img class="section-image" src='<%= ResolveUrl("~/Images/product-filters.jpeg") %>' alt="Features" />
+            <br />
+            <h2 id="librariesTitle">Various Filter Features</h2>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <img class="section-image" src='<%= ResolveUrl("~/Images/sell-products.jpeg") %>' alt="Support" />
+            <br />
+            <h2 id="hostingTitle">Sell Your Products</h2>
+        </section>
+    </div>
+    <style>
+    .section-image {
+        width: 100%;
+        max-width: 420px;
+        display: block;
+        margin: 0 auto;
+    }
+    </style>
     </asp:GridView>
     <asp:SqlDataSource ID="ProductsTab" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
         SelectCommand="SELECT * FROM Products" 

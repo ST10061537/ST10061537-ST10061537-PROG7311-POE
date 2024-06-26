@@ -131,12 +131,16 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\add-products.jpeg" />
     <Content Include="Images\background.jpeg" />
     <Content Include="Images\coming-soon.jpeg" />
     <Content Include="Images\features.jpeg" />
     <Content Include="Images\getting-started.jpeg" />
     <Content Include="Images\marketplace-overview.jpeg" />
     <Content Include="Images\product-comparison.jpeg" />
+    <Content Include="Images\product-filters.jpeg" />
+    <Content Include="Images\products.jpeg" />
+    <Content Include="Images\sell-products.jpeg" />
     <Content Include="Images\support.jpeg" />
     <Content Include="Marketplace.aspx" />
     <Content Include="Pages\Employees\Employees.aspx" />
